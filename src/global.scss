@@ -1,0 +1,63 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form__container {
+    min-height: 100vh;
+}
+
+.form__container form {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
+}
+
+.form__heading {
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 10px;
+}
+
+.form__button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.form__button:hover {
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.form__submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.form__submit-btn:hover {
+    opacity: 0.9;
+}
+
+.content {
+    min-height: 73vh !important;
+}
